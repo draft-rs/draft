@@ -1,0 +1,8 @@
+[package]
+name = "draft_common"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+miette = { git = "https://github.com/draft-rs/miette.git", features = ["fancy"] }
+camino = "1.1.10"

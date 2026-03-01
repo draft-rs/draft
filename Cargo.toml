@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "crates/draft_lex",
+    "crates/draft_ast",
+    "crates/draft_common",
+    "crates/draft_parse",
+    "crates/draft_typeck",
+    "crates/draft",
+]
+resolver = "3"
+doctest = false

@@ -1,8 +1,13 @@
 ### ✏️ Syntax
 ```
 struct Dragon =
-  health: int,
-  name: string
+  health: Int,
+  name: String
 
 enum Animal =
-  Otter(
+  Otter(Int, Int),
+  Dog(Int)
+  
+fn main() =
+  none
+```

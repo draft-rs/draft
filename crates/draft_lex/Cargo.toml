@@ -1,0 +1,9 @@
+[package]
+name = "draft_lex"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+draft_common = { path = "../draft_common" }
+thiserror = "2.0.12"
+miette = { git = "https://github.com/draft-rs/miette.git", features = ["fancy"] }
